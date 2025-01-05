@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengarnas Flöde</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Pengarnas Flöde</h1>
+    <p>En guide för svenska privatpersoner att förstå och hantera sina pengar.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Två typer av kapital</h2>
+      <ul>
+        <li><strong>Humankapital:</strong> Din tid, kunskap och arbetskraft. <em>Du arbetar för att tjäna pengar.</em></li>
+        <li><strong>Finansiellt kapital:</strong> Dina pengar och investeringar. <em>Dina pengar arbetar för dig.</em></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kassaflöde – Vad gör du med dina pengar?</h2>
+      <p>Du har fyra val för vad du kan göra med dina pengar:</p>
+      <ul>
+        <li><strong>Konsumera:</strong> Använd pengarna för varor och tjänster.</li>
+        <li><strong>Donera:</strong> Ge pengar till välgörenhet eller andra ändamål.</li>
+        <li><strong>Spara:</strong> Sätt undan pengar på ett sparkonto.</li>
+        <li><strong>Investera:</strong> Placera pengar i aktier, fonder eller fastigheter.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Flödeskarta: Pengarnas Flöde</h2>
+      <div class="mermaid">
+        graph TD
+          A[Pengar] -->|Konsumera| B[Konsumtion]
+          A -->|Donera| C[Donationer]
+          A -->|Spara| D[Sparande]
+          A -->|Investera| E[Investeringar]
+          E -->|Låna ut| F[Lånebaserade investeringar]
+          E -->|Äga| G[Ägarbaserade investeringar]
+          F --> H[Obligationsfonder, Sparkonto]
+          G --> I[Fastigheter, Aktier, Fonder]
+      </div>
+    </section>
+
+    <section>
+      <h2>Investeringsstrategier</h2>
+      <p>Två grundläggande strategier:</p>
+      <ul>
+        <li><strong>Passiv strategi:</strong> Fokus på långsiktiga och stabila investeringar som indexfonder.</li>
+        <li><strong>Aktiv strategi:</strong> Mer kontroll och högre risk, som direktägande av aktier eller fastigheter.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Pengarnas Flöde</p>
+  </footer>
+</body>
+</html>
